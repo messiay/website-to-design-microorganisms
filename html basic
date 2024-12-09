@@ -1,0 +1,51 @@
+<!-- Homepage -->
+<div class="homepage">
+ <header>
+ <nav>
+ <ul>
+ <li><a href="#">Logo</a></li>
+ <li><a href="#">Navigation</a></li>
+ </ul>
+ </nav>
+ </header>
+ <section class="hero">
+ <h1>Precision Genetic Engineering Made Easy</h1>
+ <p>Input your goals, get a tailored roadmap</p>
+ <button class="get-started">Get Started</button>
+ </section>
+ <footer>
+ <p>Copyright info</p>
+ <ul>
+ <li><a href="#">Social media link</a></li>
+ </ul>
+ </footer>
+</div>
+
+<!-- Goal Input -->
+<div class="goal-input">
+ <form>
+ <label for="organism">Organism:</label>
+ <input type="text" id="organism" name="organism"><br><br>
+ <label for="gene">Gene:</label>
+ <input type="text" id="gene" name="gene"><br><br>
+ <label for="expression-level">Expression Level:</label>
+ <input type="text" id="expression-level" name="expression-level"><br><br>
+ <button class="submit-goal">Submit Goal</button>
+ </form>
+</div>
+
+<!-- Roadmap -->
+<div class="roadmap">
+ <h1>Roadmap for <span id="goal-summary"></span></h1>
+ <ul id="roadmap-steps">
+ <!-- Steps will be generated dynamically -->
+ </ul>
+</div>
+
+<!-- Challenge Prediction -->
+<div class="challenge-prediction">
+ <h1>Potential Challenges for <span id="goal-summary-challenges"></span></h1>
+ <ul id="challenges">
+ <!-- Challenges will be generated dynamically -->
+ </ul>
+</div>
